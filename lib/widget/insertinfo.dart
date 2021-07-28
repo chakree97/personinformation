@@ -64,7 +64,7 @@ class _InsertInfoState extends State<InsertInfo> {
               decoration: InputDecoration(
                 icon: Icon(Icons.call,color: Color(0xFFA2B9EE),),
                 hintText: 'Please fill name',
-                errorText: errTel ? 'Tel is empty Please fill your name':null
+                errorText: errTel ? 'Tel is empty Please fill your tel':null
               ),
             ),
             SizedBox(height: Height*0.02,),
@@ -73,7 +73,7 @@ class _InsertInfoState extends State<InsertInfo> {
               decoration: InputDecoration(
                 icon: Icon(Icons.mail,color: Color(0xFFA2DCEE),),
                 hintText: 'Please fill name',
-                errorText: errEmail ? 'Email is empty Please fill your name':null
+                errorText: errEmail ? 'Email is empty Please fill your email':null
               ),
             ),
             SizedBox(height: Height*0.02,),
@@ -88,7 +88,7 @@ class _InsertInfoState extends State<InsertInfo> {
                 icon: Icon(Icons.edit,color: Color(0xFF97CFBB),),
                 hintText: 'Please fill name',
                 helperText: 'Maximum 500 characters',
-                errorText: errInfo ?'Information is empty Please fill your name':null
+                errorText: errInfo ?'Information is empty Please fill your information':null
               ),
             ),
             SizedBox(height: Height*0.06,),
