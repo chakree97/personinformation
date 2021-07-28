@@ -43,6 +43,7 @@ class _InsertInfoState extends State<InsertInfo> {
     final Height = MediaQuery.of(context).size.height;
     final Width = MediaQuery.of(context).size.width;
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       appBar: AppBar(
         title: Text('Insert Information'),
       ),
